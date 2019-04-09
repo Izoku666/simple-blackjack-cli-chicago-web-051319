@@ -59,9 +59,8 @@ end
 ######a###############################################
 
 def runner
-total = 0
 welcome
-total = initial_round
+initial_round
 until total > 21
   hit?
 end
