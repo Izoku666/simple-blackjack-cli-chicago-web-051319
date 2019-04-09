@@ -41,7 +41,6 @@ def hit?(total)
   if inp == "h"
     y = deal_card
     total += y
-    puts "adding #{y}"
   elsif inp == "s"
     total = total
   else
@@ -64,7 +63,7 @@ def runner
   welcome
   x = initial_round
   until x > 21
-    hit?(x)
+    x = hit?(x)
     display_card_total(x)
   end
   end_game
