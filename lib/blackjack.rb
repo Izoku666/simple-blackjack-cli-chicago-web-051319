@@ -59,8 +59,11 @@ end
 ######a###############################################
 
 def runner
-welcome
-initial_round
-
+  welcome
+  x = initial_round
+  until x > 21
+    hit?
+    display_card_total
+  end
 end
     
