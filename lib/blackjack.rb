@@ -39,7 +39,9 @@ def hit?(total)
   prompt_user
   inp = get_user_input
   if inp == "h"
-    total += deal_card
+    y = deal_card
+    total += y
+    puts "adding #{y}"
   elsif inp == "s"
     total = total
   else
