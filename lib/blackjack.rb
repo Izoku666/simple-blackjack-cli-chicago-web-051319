@@ -59,7 +59,11 @@ end
 #####################################################
 
 def runner
+  total = 0
 welcome
+initial_round
+hit?(total)
+display_card_total(total)
 
 end
     
