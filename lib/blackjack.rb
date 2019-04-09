@@ -61,9 +61,6 @@ end
 def runner
 welcome
 initial_round
-until total > 21
-  hit?
-end
 
 end
     
